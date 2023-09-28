@@ -5,10 +5,12 @@ import { ProductsComponent } from './pages/products/products.component';
 const routes: Routes = [
   {
     path: 'contact',
+    title: 'Contacto',
     component: ContactComponent
   },
   {
     path: 'products',
+    title: 'Productos',
     component: ProductsComponent
   }
 ];
